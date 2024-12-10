@@ -100,6 +100,7 @@ app.get('/task/:id', (req, res) => {
 
 // Start the scheduler
 scheduleTasks1();
+console.log('Starting sched');
 
 
 // Start the server
