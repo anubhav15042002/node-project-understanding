@@ -17,7 +17,7 @@ const executeTask = (task) => {
 };
 
 // Schedule tasks
-const scheduleTasks1 = () => {
+const scheduleTasks12 = () => {
     tasks.forEach(task => {
         setTimeout(() => {
             executeTask(task);
@@ -99,7 +99,7 @@ app.get('/task/:id', (req, res) => {
 
 
 // Start the scheduler
-scheduleTasks1();
+scheduleTasks12();
 console.log('Starting sched');
 
 
