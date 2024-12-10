@@ -106,4 +106,5 @@ scheduleTasks1();
 app.listen(port, () => {
     console.log(
         `Task scheduler app listening at http://localhost:${port}`);
+        console.log('Done');
 });
